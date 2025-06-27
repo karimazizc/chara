@@ -1,6 +1,4 @@
-.container h2 {
-    font-size: 24px !important;
-}
+
 .hero {
     background: linear-gradient(135deg, #006B38 0%, #231F20 100%);
     color: #FEFEFE;
@@ -424,6 +422,12 @@ footer {
     .gallery-item img {
         height: 200px;
         width: auto;
+    }
+    .container h2 {
+    font-size: 24px !important;
+    }
+    .container h3 {
+        font-size: 20px !important;
     }
 
 }
