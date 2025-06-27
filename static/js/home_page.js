@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', () => {
 // Smooth scrolling for navigation links
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
@@ -40,7 +40,6 @@ window.addEventListener('scroll', function() {
     }
 });
 
-document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('.hamburger');
     const navWrapper = document.querySelector('.nav-wrapper');
     const navLinks = document.querySelectorAll('.nav-links a');
@@ -68,6 +67,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
     navLinks.forEach(link => {
         link.addEventListener('click', closeMenu);
+    });
+
+    navWrapper.addEventListener('click', function(e) {
+        // Only trigger if nav-wrapper itself is clicked, not its children
+        if (e.target === navWrapper && navWrapper.classList.contains('active')) {
+            navWrapper.classList.remove('active');
+            document.querySelector('.hamburger').classList.remove('active');
+            document.querySelector('.mobile-overlay').classList.remove('active');
+        }
     });
 });
 
