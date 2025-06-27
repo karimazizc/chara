@@ -1,3 +1,6 @@
+.container h2 {
+    font-size: 24px !important;
+}
 .hero {
     background: linear-gradient(135deg, #006B38 0%, #231F20 100%);
     color: #FEFEFE;
@@ -401,7 +404,12 @@ footer {
     .hero-content,
     .about-content,
     .contact-content {
-    grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    .contact-form{
+        padding: 0;
     }
 
     .why-us-grid,
@@ -410,13 +418,14 @@ footer {
     }
 
    .gallery-nav {
-    flex-direction: column;
-    align-items: center;
+        flex-direction: column;
+        align-items: center;
     }
     .gallery-item img {
         height: 200px;
         width: auto;
     }
+
 }
 
 /* Smooth scrolling */
@@ -467,6 +476,6 @@ html {
 }
 
 .countries-exporter img {
-    height: 60px;
-    width: 100px;
+    height: 60px !important;
+    width: 100px !important;
 }

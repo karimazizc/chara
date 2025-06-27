@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="static/css/home_page.css">
     <link rel="stylesheet" href="chara/static/css/chara.css">
     <link rel="stylesheet" href="static/css/header.css">
-    
 </head>
 <body>
     <!-- Header -->
@@ -44,7 +43,7 @@
     <!-- Hero Section -->
     <section id="home" class="hero" style="background: url('media/BM_charcoal_medley_1000.webp') center center/cover no-repeat;">
         <div class="container">
-            <div class="hero-content" style="background:transparent; height: 80vh; width:auto; border-radius: 1rem; display: flex; align-items: center; gap: 2rem;">
+            <div class="hero-content" style="background:transparent; height: 50vh; width:auto; border-radius: 1rem; display: flex; align-items: center; gap: 2rem;">
                 <div style="color: #fff;">
                     <h1>Premium Charcoal Exporter from Indonesia</h1>
                     <p>Supplying high-quality BBQ and Shisha charcoal briquettes to importers <strong>across the globe</strong>.</p>
@@ -60,14 +59,14 @@
             <h2>We handle customers across the globe!</h2>
             <div class="countries-slider-wrapper">
                 <div class="countries-slider">
-                    <span class='countries-exporter'><img src="media/china-flag.webp" alt="" srcset=""></span>
-                    <span class='countries-exporter'><img src="media/uae-flag.png" alt=""></span>
-                    <span class='countries-exporter'><img src="media/saudi-flag.png" alt=""></span>
-                    <span class='countries-exporter'><img src="media/singapore.png" alt=""></span>
-                    <span class='countries-exporter'><img src="media/malaysia-flag.png" alt=""></span>
-                    <span class='countries-exporter'><img src="media/japan-flag.png" alt=""></span>
-                    <span class='countries-exporter'><img src="media/aussie-flag.svg" alt=""></span>
-                    <span class='countries-exporter'><img src="media/korean-flag.jpg" alt=""></span>
+                    <span class='countries-exporter'><img src="media/china-flag.webp" alt="China Flag"></span>
+                    <span class='countries-exporter'><img src="media/uae-flag.png" alt="United Arab Emirates Flag"></span>
+                    <span class='countries-exporter'><img src="media/saudi-flag.png" alt="Saudi Arabia Flag"></span>
+                    <span class='countries-exporter'><img src="media/singapore.png" alt="Singapore Flag"></span>
+                    <span class='countries-exporter'><img src="media/malaysia-flag.png" alt="Malaysia Flag"></span>
+                    <span class='countries-exporter'><img src="media/japan-flag.png" alt="Japan Flag"></span>
+                    <span class='countries-exporter'><img src="media/qatar-flag.svg" alt="Qatar Flag"></span>
+                    <span class='countries-exporter'><img src="media/korean-flag.jpg" alt="South Korea Flag"></span>
                 </div>
             </div>
             
@@ -130,19 +129,19 @@
             <h2>Our Charcoal Products</h2>
             <p class="products-subtitle">All made from 100% natural coconut shells with no chemical additives</p>
             <div class="products-grid">
-                <div class="product-card">
+                <div class="product-card" id ="bbq-charcoal-briquettes">
                     <h3>BBQ Charcoal Briquettes</h3>
                     <img src="media/BBQ coconut charcoal briquette.jpg" alt="" srcset="">
                     <p>Made from coconut shells for high heat and minimal smoke, ideal for food service industries.</p>
                     <a href="#contact" class="cta-button">Get Quote</a>
                 </div>
-                <div class="product-card">
+                <div class="product-card" id="shisha-charcoal-briquettes">
                     <h3>Shisha Charcoal Briquettes</h3>
                     <img src="media/SHISHA coconut charcoal briquette.jpg" alt="">
                     <p>Clean-burning, odorless charcoal suited for cafes, lounges, and shisha distributors.</p>
                     <a href="#contact" class="cta-button">Get Quote</a>
                 </div>
-                <div class="product-card">
+                <div class="product-card" id ='coconut-shell-charcoal'>
                     <h3>Coconut Shell Charcoal</h3>
                     <img src="media/Coconut charcoal.jpg" alt="" srcset="">
                     <p>Eco-friendly coconut charcoal known for its long burning time and low ash output.</p>
@@ -169,8 +168,6 @@
                 <div class="gallery-item"><img src="media/Coconut charcoal.jpg" alt="photo-1"></div>
                 <div class="gallery-item"><img src="media/SHISHA coconut charcoal briquette.jpg" alt="photo-1"></div>
                 <div class="gallery-item"><img src="media/(SHISHA) coconut charcoal briquette.jpg" alt="photo-1"></div>
-
-               
             </div>
             <div class="load-more">
                 <button class="cta-button">Load More</button>
@@ -185,17 +182,15 @@
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Our Office</h3>
-                <div style="max-width:100%;list-style:none;transition:none;overflow:hidden;">
-                    <div id="canvas-for-googlemap" style="position:relative;width:100%;padding-bottom:100%;height:0;max-width:100%;">
-                        <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Jl.+Wolter+Monginsidi+No.107A,+RT.6/RW.6,+Rw.+Bar.,+Kec.+Kby.+Baru,+Kota+Jakarta+Selatan,+Daerah+Khusus+Ibukota+Jakarta+12170&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" allowfullscreen></iframe>
-                    </div>
-                    <a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="get-data-for-map" style="display:none;">premium bootstrap themes</a>
-                    <style>
+                    <div style="max-width:80%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;">
+                        <div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Jl.+Wolter+Monginsidi+No.107A,+RT.6/RW.6,+Rw.+Bar.,+Kec.+Kby.+Baru,+Kota+Jakarta+Selatan,+Daerah+Khusus+Ibukota+Jakarta+12170&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                        </div>
+                        <a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a>
+                        <style>
                         #canvas-for-googlemap img{max-height:none;max-width:none!important;background:none!important;}
-                        @media (max-width: 600px) {
-                            #canvas-for-googlemap { padding-bottom: 75%; }
-                        }
-                    </style>
+                        </style>
+                    </div>
                 </div>
                 <div class="contact-form">
                     <form>
@@ -224,6 +219,29 @@
                 </div>
             </div>
         </div>
+        <style>
+        @media (max-width: 768px) {
+            .contact-content {
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
+            }
+            .contact-info,
+            .contact-form {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+            .contact-form form {
+                max-width: 350px;
+                margin: 0 auto;
+            }
+            .contact-info > div[style] {
+                width: 100% !important;
+                height: 250px !important;
+                max-width: 100% !important;
+            }
+        }
+        </style>
     </section>
 
     <!-- Footer -->
@@ -243,9 +261,9 @@
                 </div>
                 <div class="footer-section">
                     <h3>Our Products</h3>
-                    <p>BBQ Charcoal Briquettes</p>
-                    <p>Shisha Charcoal Briquettes</p>
-                    <p>Coconut Shell Charcoal</p>
+                    <p><a href="#bbq-charcoal-briquettes">BBQ Charcoal Briquettes</a></p>
+                    <p><a href="#shisha-charcoal-briquettes">Shisha Charcoal Briquettes</a></p>
+                    <p><a href="#coconut-shell-charcoal">Coconut Shell Charcoal</a></p>
                 </div>
                 <div class="footer-section">
                     <h3>Contact Us</h3>
