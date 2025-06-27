@@ -18,3 +18,11 @@ body {
     margin: 0 auto;
     padding: 0 20px;
 }
+
+/* Color Palette Variables */
+:root {
+    --primary-green: #006B38;
+    --primary-black: #231F20;
+    --primary-white: #FEFEFE;
+    --primary-gold: #C2B280;
+}
