@@ -15,7 +15,7 @@
     <!-- Header -->
     <header>
         <nav class="container">
-            <a href="#home" class="logo" style="display:inline-block; max-width:100px;">
+            <a href="index.html" class="logo" style="display:inline-block; max-width:100px;">
                 <span style="display: flex; align-items: center; gap: 8px;">
                     <img src="media/green-logo.png" alt="logo-icon" style="height:50px; width:auto;">
                     <span style="font-weight: bold; font-size: 1.2rem; letter-spacing: 0;">CHARA</span>
@@ -28,12 +28,12 @@
             </div>
             <div class="nav-wrapper">
                 <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="blog_index_page.html">Blog</a></li>
-                <li><a href="#contact">Contact</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="blog_index_page.html">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
                 <a href="#contact" class="cta-button" id="cta-header">Get a Free Quote</a>
             </div>
@@ -184,7 +184,17 @@
             <div class="contact-content">
                 <div class="contact-info">
                     <h3>Our Office</h3>
-                    <div style="max-width:100%;list-style:none; transition: none;overflow:hidden;width:500px;height:500px;"><div id="canvas-for-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Jl.+Wolter+Monginsidi+No.107A,+RT.6/RW.6,+Rw.+Bar.,+Kec.+Kby.+Baru,+Kota+Jakarta+Selatan,+Daerah+Khusus+Ibukota+Jakarta+12170&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="get-data-for-map">premium bootstrap themes</a><style>#canvas-for-googlemap img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+                <div style="max-width:100%;list-style:none;transition:none;overflow:hidden;">
+                    <div id="canvas-for-googlemap" style="position:relative;width:100%;padding-bottom:100%;height:0;max-width:100%;">
+                        <iframe style="position:absolute;top:0;left:0;width:100%;height:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Jl.+Wolter+Monginsidi+No.107A,+RT.6/RW.6,+Rw.+Bar.,+Kec.+Kby.+Baru,+Kota+Jakarta+Selatan,+Daerah+Khusus+Ibukota+Jakarta+12170&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8" allowfullscreen></iframe>
+                    </div>
+                    <a class="code-for-google-map" href="https://www.bootstrapskins.com/themes" id="get-data-for-map" style="display:none;">premium bootstrap themes</a>
+                    <style>
+                        #canvas-for-googlemap img{max-height:none;max-width:none!important;background:none!important;}
+                        @media (max-width: 600px) {
+                            #canvas-for-googlemap { padding-bottom: 75%; }
+                        }
+                    </style>
                 </div>
                 <div class="contact-form">
                     <form>
