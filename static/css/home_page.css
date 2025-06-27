@@ -236,7 +236,7 @@
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 1rem;
+    gap: 2rem;
     margin-bottom: 2rem;
 }
 .gallery-item{
@@ -247,13 +247,13 @@
     justify-content: center;
     color: #231F20;
     font-weight: bold;
+    
 }
 
 .gallery-item img {
     height: 300px;
     width: auto;
     border-radius: 10px;
-   
 }
 .gallery-item img:hover{
     transform: translateY(-8px) scale(1.03);
@@ -422,6 +422,7 @@ footer {
     .gallery-item img {
         height: 200px;
         width: auto;
+
     }
     .container h2 {
     font-size: 24px !important;
