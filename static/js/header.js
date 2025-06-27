@@ -29,7 +29,7 @@ window.addEventListener('scroll', function() {
         overlay.classList.remove('active');
     }
 
-    // Close menu when clicking outside the sidebar (nav-wrapper)
+    // Close menu when clicking outside the sidebar menu(nav-wrapper)
     document.addEventListener('click', function(e) {
         if (
             navWrapper.classList.contains('active') &&
